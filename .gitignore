@@ -81,6 +81,8 @@ CTestTestfile.cmake
 .DS_Store
 
 build*
+!build.zig
+!build.zig.zon
 
 # MSVC
 .vs
@@ -98,3 +100,6 @@ doc/html
 /.vscode
 /.idea
 /cmake-build-*
+
+/zig-out
+/zig-cache

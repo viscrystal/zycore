@@ -1,0 +1,12 @@
+.{
+    .name = "zycore",
+    .version = "1.4.1",
+    .paths = .{
+        "src",
+        "include",
+        "LICENSE",
+        "build.zig",
+        "build.zig.zon",
+    },
+    .dependencies = .{},
+}
